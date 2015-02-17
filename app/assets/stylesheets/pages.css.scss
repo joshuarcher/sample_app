@@ -78,10 +78,6 @@ a:focus {
     outline: 0;
 }
 
-.fa .fa-bars {
-  color: #FAD001;
-}
-
 .navbar-custom .navbar-brand .navbar-toggle {
     padding: 4px 6px;
     font-size: 16px;
@@ -125,11 +121,24 @@ a:focus {
     background-color: transparent;
   }
 }
+@media (max-width: 766px) {
+  button .burger {
+    background-image: url(../images/BY-hamburger.jpg);
+    padding: none;
+    width:25px;
+    height: 25px;
+  }
+}
+button .burger {
+padding: none;
+width:25px;
+height: 25px;
+}
 
 .intro {
     display: table;
     width: 100%;
-    height: auto;
+    height: 100%;
     padding: 100px 0;
     text-align: center;
     color: #fff;
@@ -166,3 +175,17 @@ a:focus {
     font-size: 25px;
   }
 }
+
+section {
+  color: white;
+}
+
+.content-section {
+    padding-top: 100px;
+    height: 100%;
+}
+
+footer {
+    color: white;
+}
+
