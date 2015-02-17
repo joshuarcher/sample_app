@@ -16,3 +16,5 @@
 //= require bootstrap
 //= require turbolinks
 //= require_tree .
+// jQuery to collapse the navbar on scroll
+
