@@ -159,7 +159,7 @@ height: 25px;
     overflow: hidden;
     background-image: url(/assets/recallBlack.png);
     background-position: bottom;
-    background-size: 20%;
+    background-size: 80%;
     background-repeat: no-repeat;
 
 
@@ -183,6 +183,11 @@ height: 25px;
     height: 100%;
     padding: 0;
   }
+  .intro-body {
+      background-size: 20%;
+
+  }
+
   .intro .intro-body .brand-heading {
     font-size: 100px;
   }
