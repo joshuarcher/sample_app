@@ -123,7 +123,6 @@ a:focus {
 }
 @media (max-width: 766px) {
   button .burger {
-    background-image: url(../images/BY-hamburger.jpg);
     padding: none;
     width:25px;
     height: 25px;
@@ -135,19 +134,35 @@ width:25px;
 height: 25px;
 }
 
+.landing-page {
+  margin: auto;
+  display: block;
+}
+
 .intro {
+    overflow: hidden;
     display: table;
     width: 100%;
     height: 100%;
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../images/landing-page.jpg) no-repeat bottom center scroll;
+    background: url(/assets/landing-page.jpg) no-repeat bottom center scroll;
     background-color: #2D7BC6;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+}
+
+.intro-body {
+    overflow: hidden;
+    background-image: url(/assets/recallBlack.png);
+    background-position: bottom;
+    background-size: 20%;
+    background-repeat: no-repeat;
+
+
 }
 
 .intro .intro-body {
@@ -174,6 +189,11 @@ height: 25px;
   .intro .intro-body .brand-text {
     font-size: 25px;
   }
+}
+
+h1.rTitle {
+    font-size: 500%;
+
 }
 
 section {
