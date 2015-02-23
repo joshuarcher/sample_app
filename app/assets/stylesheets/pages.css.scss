@@ -147,7 +147,7 @@ height: 25px;
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/assets/landing-page.jpg) no-repeat bottom center scroll;
+    background: asset-url("landing-page.jpg") no-repeat bottom center scroll;
     background-color: #2D7BC6;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -157,7 +157,7 @@ height: 25px;
 
 .intro-body {
     overflow: hidden;
-    background-image: url(/assets/recallBlack.png);
+    background-image: asset-url("recallBlack.png");
     background-position: bottom;
     background-size: 80%;
     background-repeat: no-repeat;
